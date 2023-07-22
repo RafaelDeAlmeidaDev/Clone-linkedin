@@ -1,0 +1,53 @@
+nav {
+    width: 100%;
+    background: var(--fundo-card);
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: .2em;
+}
+
+.container_nav {
+    display: flex;
+    justify-content: center;
+    width: 40%;
+
+}
+
+.barra_de_pesquisar {
+    margin-left: 1em;
+    text-align: center;
+    width: 40%;
+    font-size: 0.875rem;
+    padding: 1em;
+    background: url("../img/icone-busca.svg") no-repeat left;
+    color: var(--branco);
+}
+
+.lista_cabecalho {
+    width: 50%;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.lista_cabecalho__item {
+    display: flex;
+    flex-flow: column nowrap;
+    align-items: center;
+}
+
+.lista_cabecalho__item>img {
+    width: 3em;
+}
+
+.lista_cabecalho__item>a {
+    text-decoration: none;
+    color: var(--branco);
+
+}
+
+.link_solucoes {
+    padding: 2em;
+    border-left: var(--branco) 1px solid;
+}

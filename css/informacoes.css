@@ -1,0 +1,136 @@
+.informacoes{
+    display: flex;
+    flex-flow: row nowrap;
+    justify-content: space-evenly;
+}
+
+.card_informacoes_usuario{
+    display: flex;
+    flex-flow: column nowrap;
+    height: 70vh;
+    width: 60vw;
+    background: var(--fundo-card);
+    border-radius: 1em;
+}
+
+.posicionamento_informacoes{
+    position: relative;
+    bottom: 150px;
+}
+
+.perfil{
+    width: 160px;
+}
+
+.container, .experiencias__itens, .experiencias{
+    display: flex;
+    flex-flow: row nowrap;
+    align-items: center;
+}
+
+.container__informacoes_pessoais{
+    width: 50%;
+}
+
+.nomeESobrenome{
+    font-size: 1.5em;
+    font-weight: 500;
+}
+
+.container{
+    justify-content: space-between;
+}
+
+.experiencias__itens{
+    margin-left: 0.5em;
+}
+
+.botoes{
+    display: flex;
+    justify-content: center;
+}
+
+.botoes__informacoes__link{
+    margin: 0 1em;
+    padding: 1em 2em;
+    border-radius: 30px;
+    border: 1px solid var(--azul);
+    color: var(--azul);
+    text-decoration: none;
+}
+
+.botoes__informacoes__link:hover{
+    background-color:var(--azul);
+    color: var(--preto);
+}
+.informacoes_adicionais{
+    display: flex;
+    flex-flow: column;
+}
+
+.assunstos_falados, .local{
+    color: var(--cinza);
+    font-size: .8em;
+    font-weight: 400;
+}
+
+.contato{
+    color: var(--azul);
+    text-decoration: none;
+    font-size: .8em;
+    font-weight: 700;
+
+}
+
+.experiencias__itens__link{
+    text-decoration: none;
+    color: var(--branco);
+    font-size: 1em;
+    font-weight: 600;
+}
+
+
+/* Card */
+
+.card_pessoas-tambem-viram{
+    display: flex;
+    flex-flow: column nowrap;
+    justify-content: space-between;;
+}
+
+.perfil-card{
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+    justify-content: space-between;
+    margin-bottom: 0.5em;
+}
+
+.perfil-card > div{
+    display: flex;
+    flex-flow: row nowrap;
+}
+
+.perfil-card__nome{
+    font-family: var(--font-secundaria);
+    font-size: .8em;
+    font-weight: 700;
+}
+
+.perfil-card__texto{
+    color: var(--cinza);
+    font-family: var(--font-secundaria);
+    font-size: .7em;
+    font-weight: 400;
+}
+
+.perfil-card__link{
+    margin-top: .5em;
+    padding: 1em 2em;
+    border-radius: 30px;
+    border: 1px solid var(--branco);
+    color: var(--branco);
+    text-decoration: none;
+    font-size: .8em;
+
+}
