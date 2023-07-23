@@ -48,6 +48,7 @@
 .botoes{
     display: flex;
     justify-content: center;
+    margin-top: 1em;
 }
 
 .botoes__informacoes__link{
@@ -93,6 +94,7 @@
 /* Card */
 
 .card_pessoas-tambem-viram{
+    margin-top: 1em;
     display: flex;
     flex-flow: column nowrap;
     justify-content: space-between;;

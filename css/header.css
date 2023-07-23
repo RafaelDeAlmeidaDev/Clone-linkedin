@@ -31,7 +31,7 @@ nav {
     align-items: center;
 }
 
-.lista_cabecalho__item {
+.lista_cabecalho__item > a{
     display: flex;
     flex-flow: column nowrap;
     align-items: center;
